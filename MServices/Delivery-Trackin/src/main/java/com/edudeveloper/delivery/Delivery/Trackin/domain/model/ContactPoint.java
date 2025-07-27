@@ -10,7 +10,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Builder
 @Getter
-public class ContactPoint {
+public class ContactPoint {// Constructor
     private String zipCode;
     private String street;
     private String number;
